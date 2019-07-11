@@ -1,7 +1,7 @@
 const container = document.querySelector('#recipe-api')
 
 
-fetch(`https://rangosite.herokuapp.com/sucoverde`)
+fetch(`http://localhost:3000/sucoverde`)
   .then((response) => {
     return response.json();
   })

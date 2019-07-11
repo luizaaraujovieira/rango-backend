@@ -1,7 +1,7 @@
 const container = document.querySelector('#recipe-api')
 
 
-fetch(`https://rangosite.herokuapp.com/galette`)
+fetch(`http://localhost:3000/galette`)
   .then((response) => {
     return response.json();
   })
