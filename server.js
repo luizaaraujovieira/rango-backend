@@ -140,8 +140,7 @@ server.delete('/galette/:id', (request, response) => {
 
 //////////////////////////////////////qq
 
-
-server.listen(3000)
+server.listen(process.env.PORT || 3000)
 console.log("------Server is working------")
 console.log("PORT : http://localhost:3000/sucoverde")
 console.log("PORT : http://localhost:3000/brownie")
